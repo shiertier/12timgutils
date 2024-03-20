@@ -350,14 +350,7 @@ def doit(id):
 
 import argparse
 if __name__ == "__main__":
-    # 创建一个解析器
     parser = argparse.ArgumentParser(description='处理通过命令行传入的数字。')
-
-    # 添加参数
     parser.add_argument('--id', type=int, help='一个整数参数')
-
-    # 解析参数
     args = parser.parse_args()
-
-    # 调用函数
     doit(args.id)
