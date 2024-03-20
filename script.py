@@ -1,5 +1,4 @@
 import os
-#os.environ['IMGUTILS_MODELS_PATH'] = "D:\zhujunjie\imgutilss.py\models"
 #os.environ['IMGUTILS_MODELS_PATH'] = "/gemini/pretrain"
 os.environ['TF_ENABLE_ONEDNN_OPTS']='0'
 
